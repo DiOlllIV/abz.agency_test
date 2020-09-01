@@ -1,0 +1,25 @@
+@import "./header.scss";
+@import "./banner.scss";
+@import "./acquaintance.scss";
+@import "./users.scss";
+@import "registration.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  outline: none;
+}
+
+
+#root {
+  width: 1024px;
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+}
+

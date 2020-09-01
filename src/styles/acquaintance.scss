@@ -1,0 +1,50 @@
+.acquaintance {
+  
+  &-headline {
+    margin: 151px 0 0 286px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+    font-weight: 400;
+  }
+
+  &-container {
+    display: flex;
+
+    &__img {
+      margin: 69px auto auto 55px;
+      width: 768px;
+      height: 286px;
+      background-image: url("/src/img/man-laptop-v1.svg");
+      background-size: contain;
+    }
+
+    &__dscrptn {
+
+      &-title {
+        margin: 66px 0 0 50px;
+        padding-bottom: 40px;
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      &-paragraph {
+        width: 578px;
+        margin: -18px 0 0 50px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        word-spacing: 2px;
+        font-size: 16px;
+      }
+
+      &-link {
+        text-decoration: none;
+        margin: 31px 0 0 49px;
+        display: block;
+        font-size: 16px;
+        word-spacing: 1px;
+        font-weight: 700;
+      }
+    }
+  }
+}
